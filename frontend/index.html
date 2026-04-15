@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AI SafeRoute X</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+</head>
+
+<body>
+
+    <h1>🚦 AI SafeRoute X</h1>
+
+    <input id="source" placeholder="Source">
+    <input id="destination" placeholder="Destination">
+
+    <select id="time">
+        <option value="day">Day</option>
+        <option value="night">Night</option>
+    </select>
+
+    <button onclick="findRoutes()">Find Smart Routes</button>
+
+    <div id="map"></div>
+    <div id="routes"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
